@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.3.18', '< 0.5'
+gem 'mysql2', '0.3.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -33,6 +33,20 @@ gem 'jbuilder', '~> 2.5'
 gem "therubyracer"
 gem "twitter-bootstrap-rails"
 
+gem 'devise'
+gem 'dotenv-rails'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'carrierwave'
+gem 'rmagick'
+gem 'pry'
+gem 'pry-remote'
+gem 'pry-nav'
+
+gem 'rb-readline'
+
+gem 'fog'
 
 
 group :development, :test do
