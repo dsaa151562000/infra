@@ -53,4 +53,4 @@ production:
   <<: *default
   database: infra02_production
   username: testuser
-  password: testuserpass
+  password: testpassword
