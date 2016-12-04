@@ -52,6 +52,5 @@ test:
 production:
   <<: *default
   database: infra02_production
-  username: root
-  password:
-#<%= ENV['INFRA_DATABASE_PASSWORD'] %>
+  username: testuser
+  password: testuserpass
