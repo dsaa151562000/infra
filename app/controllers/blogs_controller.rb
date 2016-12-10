@@ -4,6 +4,7 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
+    #binding.pry
     @blogs = Blog.all
   end
 
@@ -54,9 +55,11 @@ class BlogsController < ApplicationController
   # DELETE /blogs/1
   # DELETE /blogs/1.json
   def destroy
+    #@blogs = Blog.all
     @blog.destroy
     respond_to do |format|
       format.html { redirect_to blogs_url, notice: 'Blog was successfully destroyed.' }
+      #format.html { render :index , notice: 'Blog was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
