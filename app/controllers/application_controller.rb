@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   skip_before_filter :verify_authenticity_token
   before_action :configure_permitted_parameters, if: :devise_controller?
 
-  PERMISSIBLE_ATTRIBUTES = %i(name avatar avatar_cache)
+  PERMISSIBLE_ATTRIBUTES = %i(name avatar avatar_cache image)
 
   private
 
