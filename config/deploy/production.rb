@@ -68,3 +68,6 @@ server '133.130.100.193', user: 'app', roles: %w{app db web}
 #   keys: [File.expand_path('~/.ssh/id_rsa)],
 # }
 set :ssh_options, keys: "~/.ssh/id_rsa"
+
+
+config.logger = Logger.new("log/production.log", 'daily')
