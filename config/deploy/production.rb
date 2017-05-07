@@ -69,5 +69,5 @@ server '133.130.100.193', user: 'app', roles: %w{app db web}
 # }
 set :ssh_options, keys: "~/.ssh/id_rsa"
 
-
+config.log_level = :warn  # logger.info と logger.debugの内容は出力されない
 config.logger = Logger.new("log/production.log", 'daily')
