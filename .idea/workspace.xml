@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6689d71-ed94-44f0-9638-2acbb3577cea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-    </list>
+    <list default="true" id="b6689d71-ed94-44f0-9638-2acbb3577cea" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -132,8 +129,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="78" />
+    <option name="x" value="-130" />
+    <option name="y" value="183" />
     <option name="width" value="1366" />
     <option name="height" value="686" />
   </component>
@@ -405,15 +402,15 @@
       <option name="presentableId" value="Default" />
       <updated>1494136284051</updated>
       <workItem from="1494136286980" duration="73000" />
-      <workItem from="1494137028739" duration="2235000" />
+      <workItem from="1494137028739" duration="2279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2308000" />
+    <option name="totallyTimeSpent" value="2352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="78" width="1366" height="686" extended-state="0" />
+    <frame x="-130" y="183" width="1366" height="686" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29758307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
