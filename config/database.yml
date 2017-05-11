@@ -17,8 +17,8 @@ default: &default
   # password:
   username: root
   password:
-  #socket: /tmp/mysql.sock
-  socket: /var/lib/mysql/mysql.sock
+  socket: /tmp/mysql.sock #local
+  #socket: /var/lib/mysql/mysql.sock
 
 development:
   <<: *default

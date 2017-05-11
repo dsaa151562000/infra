@@ -45,7 +45,7 @@ Rails.application.configure do
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
   #config.log_level = :debug
-
+  #config.log_level = :warn  # logger.info と logger.debugの内容は出力されない
 
   # Prepend all log lines with the following tags.
   config.log_tags = [ :request_id ]
@@ -71,8 +71,8 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-
-
+  config.log_level = :warn  # logger.info と logger.debugの内容は出力されない
+  config.logger = Logger.new("log/production.log", 'daily')
 
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
@@ -82,9 +82,6 @@ Rails.application.configure do
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger = ActiveSupport::TaggedLogging.new(logger)
-    config.logger = Logger.new("log/production.log", 'daily')
-    config.log_level = :warn
-
   end
   config.active_record.dump_schema_after_migration = false
 
