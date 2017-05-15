@@ -1,0 +1,6 @@
+<div style="text-align: center; margin: 30px;">
+  <%= form_tag(list_path, method: :post) do %>
+      <%= text_field :query, :name %>
+      <%= submit_tag '検索する', { id: 'submit_btn', class: 'btn btn-primary' } %>
+  <% end %>
+</div>
