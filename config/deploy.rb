@@ -2,13 +2,13 @@
 lock '3.6.0'
 
 set :application, 'infra'
-set :repo_url, 'git@github.com:dsaa151562000/infra03.git'
+set :repo_url, 'git@github.com:dsaa151562000/infra.git'
 
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, ENV['BRANCH'] || 'master'
 
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/infra03'
+set :deploy_to, '/var/www/infra'
 
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
