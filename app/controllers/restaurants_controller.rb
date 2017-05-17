@@ -20,6 +20,7 @@ class RestaurantsController < ApplicationController
 
     session[:query] = query
     url = build_url(query)
+    url = URI.escape(url)
     res = open(url)
 
     if res.status[0] == "200"
@@ -34,6 +35,7 @@ class RestaurantsController < ApplicationController
   def detail
     id = params[:id]
     url = build_url({ id: id })
+    URI.parse URI.encode
     res = open(url)
 
     if res.status[0] == "200"
