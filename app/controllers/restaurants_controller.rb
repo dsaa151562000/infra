@@ -58,7 +58,7 @@ class RestaurantsController < ApplicationController
      #binding.pry
 
     end
-  
+
 end
 
 
